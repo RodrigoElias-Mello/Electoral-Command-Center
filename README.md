@@ -339,7 +339,7 @@ Formado em Análise e Desenvolvimento de Sistemas, com foco no desenvolvimento d
 ---
 
 <p align="center">
-  <strong>Desenvolvido por Elias Technology.</strong>
+  <strong>Desenvolvido por Rodrigo Elias Alfama de Mello.</strong>
   <br />
   🗳️ Electoral Command Center — Clareza operacional para decisões mais conscientes.
 </p>
