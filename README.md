@@ -1,96 +1,142 @@
-🗳️ Electoral Command Center — Centro de Comando
+# 🗳️ Electoral Command Center — Centro de Comando
+
 <p align="center">
-  <img src="./public/icon-512-v3.png" alt="Electoral Command Center — Centro de Comando" width="180" />
-</p><p align="center">
   <strong>Clareza para operar. Dados para decidir.</strong>
   <br />
   Inteligência operacional, gestão de equipes e acompanhamento de atividades em uma única plataforma.
-</p><p align="center">
+</p>
+
+<p align="center">
   <a href="https://nova-conversa-plum.vercel.app/">🌐 Acessar projeto</a>
-</p>📌 Sobre o projeto
-O Electoral Command Center é uma aplicação web de gestão e inteligência operacional desenvolvida para centralizar informações, organizar equipes e acompanhar atividades relacionadas à operação de uma campanha.
+</p>
 
-A plataforma reúne módulos de visão geral, cadastro de eleitores, agenda, tarefas, lideranças, comunicação, busca e acompanhamento de cobertura. A proposta é oferecer uma leitura organizada da operação, permitindo que usuários autorizados consultem registros e acompanhem indicadores com base nas informações cadastradas.
+---
 
-Com acesso autenticado, permissões por módulo e interface responsiva, o sistema foi estruturado para apoiar a organização administrativa e facilitar o acompanhamento das atividades em um ambiente integrado.
-🎯 Objetivos
+## 📌 Sobre o projeto
+
+O **Electoral Command Center** é uma aplicação web de gestão e inteligência operacional desenvolvida para centralizar informações, organizar equipes e acompanhar atividades relacionadas à operação de campanhas eleitorais.
+
+A plataforma reúne ferramentas de gestão de eleitores, agenda, tarefas, lideranças, comunicação, busca avançada e acompanhamento de cobertura territorial.
+
+Seu objetivo é proporcionar uma visão organizada da operação, permitindo que usuários autorizados consultem registros, acompanhem indicadores e gerenciem atividades em um ambiente digital integrado.
+
+O sistema conta com autenticação, controle de permissões por módulo, painel administrativo e interface responsiva.
+
+## 🎯 Objetivos
+
 - Centralizar informações operacionais em um único ambiente.
 - Organizar cadastros, lideranças, eventos e tarefas.
-- Facilitar o acompanhamento das atividades e dos registros da operação.
-- Disponibilizar indicadores e consultas para apoiar a tomada de decisão.
-- Controlar o acesso às informações conforme o perfil e as permissões de cada usuário.
-- Apoiar a comunicação operacional com recursos de encaminhamento pelo WhatsApp.
-🧭 Módulos da plataforma
-📊 Visão geral
-Painel inicial com indicadores vinculados aos registros da conta, evolução mensal de cadastros, próximos eventos, tarefas em aberto e atalhos para os módulos disponíveis ao usuário.
-👥 Gestão de eleitores
-Cadastro, consulta, edição e remoção de registros, com informações de contato, endereço, zona, seção, categoria, etiquetas, observações e situação do cadastro.
-📅 Agenda da campanha
+- Facilitar o acompanhamento das atividades e dos registros.
+- Disponibilizar indicadores para apoiar a tomada de decisão.
+- Controlar o acesso às informações conforme o perfil de cada usuário.
+- Apoiar a comunicação operacional por meio de recursos de integração com WhatsApp.
+
+## 🧭 Módulos da plataforma
+
+### 📊 Visão geral — Dashboard
+
+Painel principal com indicadores operacionais, evolução mensal de cadastros, próximos eventos, tarefas em aberto e atalhos para os módulos disponíveis ao usuário.
+
+### 👥 Gestão de eleitores
+
+Módulo para cadastro, consulta, edição e remoção de registros, incluindo informações de contato, endereço, zona, seção, categoria, etiquetas, observações e situação cadastral.
+
+### 📅 Agenda da campanha
+
 Organização de compromissos e atividades por data, horário e local, com informações sobre tipo, descrição, situação e quantidade prevista de participantes.
-✅ Gestão de tarefas
-Criação e acompanhamento de atividades, com descrição, responsável, prazo, prioridade e status para facilitar a organização das demandas.
-📣 Central de comunicação e despacho
-Gerenciamento de lideranças e contatos, organização de solicitações e fila de despachos, com possibilidade de agendamento e integração de envio pela API oficial do WhatsApp quando configurada.
-🔎 Busca avançada
-Consulta de registros por critérios disponíveis na interface, facilitando a localização de informações cadastradas na plataforma.
-📈 Cobertura e projeções
-Visualização agregada de lideranças por região e registros por zona, oferecendo uma leitura da distribuição territorial com base nos dados cadastrados.
-🔐 Usuários e administração
-Gestão de usuários e concessão de permissões por recurso. O perfil administrador possui acesso à área administrativa e pode controlar quais módulos ficam disponíveis para cada conta.
-⚙️ Configurações
-Área de preferências da aplicação, incluindo opções de apresentação e configurações relacionadas à experiência de uso.
-✨ Funcionalidades implementadas
-- Autenticação: acesso por conta, com gerenciamento de sessão.
-- Controle de acesso: perfis de administrador e operador, além de permissões específicas por módulo.
-- Dashboard operacional: indicadores, gráfico de evolução dos cadastros, agenda próxima e atalhos contextuais.
-- Cadastro de eleitores: inclusão, edição, consulta, categorização e gerenciamento de registros.
-- Agenda: criação e manutenção de eventos e compromissos.
-- Tarefas: organização de demandas por prioridade, responsável, prazo e situação.
-- Lideranças: cadastro e gerenciamento de responsáveis por região.
-- Fila de despachos: registro, agendamento e acompanhamento do status de solicitações.
-- WhatsApp: abertura de conversas pelo WhatsApp Web e suporte à API oficial mediante credenciais válidas.
-- Busca avançada: pesquisa de informações cadastradas.
-- Indicadores de cobertura: agrupamento de lideranças por região e registros por zona.
-- Registro de auditoria: histórico de ações relevantes realizadas nos módulos operacionais.
-- Interface responsiva: navegação adaptada a diferentes tamanhos de tela.
-- Tema visual: suporte a apresentação clara e escura.
-- PWA: configuração de manifesto e registro de service worker para recursos de instalação da aplicação.
-- Notificações visuais: mensagens de retorno para ações realizadas na interface.
-- Analytics: integração com Vercel Analytics para acompanhamento de acesso em produção.
-🎨 Interface e experiência do usuário
-O desenvolvimento visual prioriza:
-- Identidade visual institucional e alinhada a um centro de comando.
-- Interface organizada com hierarquia clara de informações.
-- Painéis e indicadores para leitura rápida dos dados.
-- Navegação lateral com módulos condicionados às permissões do usuário.
-- Componentes reutilizáveis e padrões visuais consistentes.
-- Layout responsivo para desktop, tablets e dispositivos móveis.
+
+### ✅ Gestão de tarefas
+
+Criação e acompanhamento de atividades com descrição, responsável, prazo, prioridade e status.
+
+### 👥 Gestão de lideranças
+
+Cadastro e gerenciamento de lideranças e responsáveis por regiões, facilitando a organização da estrutura operacional.
+
+### 📣 Central de comunicação e despacho
+
+Gerenciamento de contatos, solicitações e fila de despachos, com possibilidade de agendamento e integração com a API oficial do WhatsApp, quando devidamente configurada.
+
+### 🔎 Busca avançada
+
+Pesquisa de registros cadastrados utilizando os critérios disponíveis na interface.
+
+### 📈 Cobertura e projeções
+
+Visualização agregada de lideranças por região e registros por zona, permitindo acompanhar a distribuição territorial das informações cadastradas.
+
+### 🔐 Usuários e administração
+
+Gerenciamento de usuários e permissões específicas por recurso. O administrador pode controlar quais módulos ficam disponíveis para cada conta.
+
+### ⚙️ Configurações
+
+Área destinada às preferências da aplicação e opções relacionadas à experiência de utilização.
+
+## ✨ Funcionalidades implementadas
+
+- Autenticação e gerenciamento de sessões.
+- Perfis de administrador e operador.
+- Controle de permissões por módulo.
+- Dashboard com indicadores operacionais.
+- Cadastro, edição, consulta e gerenciamento de eleitores.
+- Organização de eventos e compromissos.
+- Gerenciamento de tarefas e prioridades.
+- Cadastro e gerenciamento de lideranças.
+- Fila de despachos e acompanhamento de solicitações.
+- Integração com WhatsApp Web.
+- Suporte à API oficial do WhatsApp mediante credenciais válidas.
+- Pesquisa avançada de registros.
+- Indicadores de cobertura territorial.
+- Registro de auditoria de ações relevantes.
+- Interface responsiva.
+- Tema claro e escuro.
+- Configuração de PWA para instalação da aplicação.
+- Notificações visuais de ações realizadas.
+- Integração com Vercel Analytics.
+
+## 🎨 Interface e experiência do usuário
+
+A experiência visual foi desenvolvida para transmitir clareza, organização e eficiência operacional.
+
+Entre os principais aspectos da interface estão:
+
+- Identidade visual institucional e neutra.
+- Painéis com hierarquia clara de informações.
+- Indicadores para leitura rápida dos dados.
+- Navegação lateral com módulos condicionados às permissões.
+- Componentes reutilizáveis.
+- Layout adaptável a computadores, tablets e dispositivos móveis.
 - Alternância entre temas claro e escuro.
-- Elementos de acessibilidade, incluindo rótulos, estados de foco e descrições para controles.
-🛠️ Tecnologias utilizadas
-Tecnologia	Aplicação
-Next.js 16	Framework da aplicação e estrutura de rotas
-React 19	Construção da interface
-TypeScript 5	Tipagem e organização do código
-Tailwind CSS 4	Estilização da interface
-Radix UI	Componentes acessíveis de interface
-shadcn/ui	Base e composição de componentes visuais
-Lucide React	Biblioteca de ícones
-Recharts	Gráficos e visualização de indicadores
-Better Auth	Autenticação e gerenciamento de sessões
-PostgreSQL	Banco de dados relacional
-Drizzle ORM	Mapeamento e consultas ao banco de dados
-Zod	Validação de dados
-SWR	Busca e atualização de dados no cliente
-React Hook Form	Gerenciamento de formulários
-date-fns	Manipulação de datas
-WhatsApp Business Platform	Integração opcional com a API oficial do WhatsApp
-Vercel Analytics	Análise de acesso em produção
-pnpm	Gerenciamento de dependências
+- Controles com rótulos e estados visuais de acessibilidade.
 
+## 🛠️ Tecnologias utilizadas
 
-📂 Estrutura do projeto
-electoral-command-center/
+| Tecnologia | Aplicação |
+|---|---|
+| Next.js 16 | Framework e estrutura da aplicação |
+| React 19 | Construção da interface |
+| TypeScript 5 | Tipagem e organização do código |
+| Tailwind CSS 4 | Estilização |
+| Radix UI | Componentes acessíveis |
+| shadcn/ui | Composição de componentes visuais |
+| Lucide React | Biblioteca de ícones |
+| Recharts | Gráficos e indicadores |
+| Better Auth | Autenticação e sessões |
+| PostgreSQL | Banco de dados relacional |
+| Drizzle ORM | Mapeamento e consultas ao banco |
+| Zod | Validação de dados |
+| SWR | Busca e atualização de dados |
+| React Hook Form | Gerenciamento de formulários |
+| date-fns | Manipulação de datas |
+| WhatsApp Business Platform | Integração opcional de comunicação |
+| Vercel Analytics | Análise de acesso |
+| pnpm | Gerenciamento de dependências |
+
+## 📂 Estrutura do projeto
+
+```text
+Electoral-Command-Center/
 ├── app/
 │   ├── actions/
 │   │   └── campaign.ts
@@ -158,65 +204,142 @@ electoral-command-center/
 ├── pnpm-lock.yaml
 ├── pnpm-workspace.yaml
 ├── postcss.config.mjs
-├── tsconfig.json
-└── README.md
-🚀 Como executar o projeto localmente
-Pré-requisitos
+└── tsconfig.json
+```
+
+## 🚀 Executando o projeto localmente
+
+### Pré-requisitos
+
 - Node.js compatível com Next.js 16.
 - pnpm instalado.
 - Git instalado.
 - Banco de dados PostgreSQL acessível.
-1. Clone o repositório
-git clone URL_DO_REPOSITORIO
-2. Entre na pasta do projeto
-cd electoral-command-center
-3. Instale as dependências
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/RodrigoElias-Mello/Electoral-Command-Center.git
+```
+
+### 2. Acesse a pasta
+
+```bash
+cd Electoral-Command-Center
+```
+
+### 3. Instale as dependências
+
+```bash
 pnpm install
-4. Configure as variáveis de ambiente
-Crie um arquivo .env.local na raiz do projeto:
+```
+
+### 4. Configure as variáveis de ambiente
+
+Crie um arquivo `.env.local` na raiz do projeto:
+
+```env
 DATABASE_URL="postgresql://USUARIO:SENHA@HOST:5432/NOME_DO_BANCO"
+
 BETTER_AUTH_URL="http://localhost:3000"
 
-# Necessárias somente para habilitar o envio pela API oficial do WhatsApp
+# Opcionais: integração com a API oficial do WhatsApp
 WHATSAPP_ACCESS_TOKEN=""
 WHATSAPP_PHONE_NUMBER_ID=""
-DATABASE_URL é obrigatória para a conexão com o PostgreSQL. BETTER_AUTH_URL define a URL base da autenticação. As credenciais do WhatsApp são opcionais e só devem ser preenchidas quando a integração oficial estiver configurada.
-5. Prepare o banco de dados
-O modelo das tabelas está definido em lib/db/schema.ts. Antes de iniciar a aplicação, disponibilize no PostgreSQL as tabelas correspondentes ao schema da aplicação.
+```
 
-Observação: o repositório contém o schema Drizzle, mas não inclui arquivos de migração nem um comando de migração configurado. Portanto, a criação e atualização das tabelas devem ser realizadas por um processo de migração compatível com o schema antes da execução em um ambiente novo.
-6. Execute em ambiente de desenvolvimento
+**Importante:**
+- `DATABASE_URL` é necessária para a conexão com o PostgreSQL.
+- `BETTER_AUTH_URL` define a URL base da autenticação.
+- As credenciais do WhatsApp são necessárias somente quando a integração oficial estiver habilitada.
+- Nunca publique credenciais ou arquivos `.env.local` no GitHub.
+
+### 5. Prepare o banco de dados
+
+O schema das tabelas está definido em:
+
+```text
+lib/db/schema.ts
+```
+
+Antes de executar a aplicação em um ambiente novo, disponibilize no PostgreSQL as tabelas correspondentes ao schema.
+
+**Observação técnica:** o repositório contém o schema Drizzle, mas não inclui arquivos de migração nem um comando de migração configurado. A criação e atualização das tabelas precisam ser realizadas por um processo compatível com esse schema.
+
+### 6. Execute em desenvolvimento
+
+```bash
 pnpm dev
-7. Acesse no navegador
+```
+
+Acesse:
+
+```text
 http://localhost:3000
-8. Gere a versão de produção
+```
+
+### 7. Gere a versão de produção
+
+```bash
 pnpm build
-9. Execute a versão de produção localmente
+```
+
+### 8. Execute a versão de produção
+
+```bash
 pnpm start
-🔒 Segurança e controle de acesso
-A aplicação utiliza autenticação com Better Auth, sessões persistidas no banco de dados e autorização por recursos. O primeiro usuário criado recebe o perfil de administrador; os usuários seguintes são registrados como operadores. O administrador pode conceder ou revogar permissões específicas para os módulos disponíveis.
+```
 
-As ações operacionais são executadas no servidor e verificam a sessão e a permissão correspondente. O projeto também mantém registros de auditoria para operações relevantes e configura cabeçalhos HTTP de proteção.
+### 9. Verifique a qualidade do código
 
-Como a plataforma pode armazenar dados pessoais, sua implantação e utilização devem observar a Lei Geral de Proteção de Dados (LGPD). É responsabilidade da organização definir finalidade e base legal, limitar os dados coletados, controlar acessos, proteger credenciais, estabelecer retenção e atender aos direitos dos titulares. Não utilize dados reais em ambientes de demonstração sem as medidas adequadas.
-🌐 Projeto publicado
-A aplicação possui endereço de produção configurado nos metadados do projeto:
+```bash
+pnpm lint
+```
 
-https://nova-conversa-plum.vercel.app/
+## 🔐 Segurança e proteção de dados
+
+A aplicação utiliza autenticação com Better Auth, sessões persistidas no banco de dados e autorização por recursos.
+
+O sistema contempla:
+
+- Perfis de administrador e operador.
+- Permissões específicas para os módulos.
+- Verificação de sessão e autorização nas ações operacionais.
+- Registro de auditoria de operações relevantes.
+- Cabeçalhos HTTP de proteção.
+
+Como a plataforma pode armazenar dados pessoais, sua implantação e utilização devem observar a Lei Geral de Proteção de Dados (LGPD).
+
+É responsabilidade da organização definir a finalidade e a base legal do tratamento, limitar os dados coletados, controlar os acessos, proteger credenciais, estabelecer políticas de retenção e atender aos direitos dos titulares.
+
+**Recomendação:** não utilize dados pessoais reais em ambientes de demonstração sem as medidas adequadas de proteção.
+
+## 🌐 Projeto publicado
+
+A aplicação está disponível online:
+
+**https://nova-conversa-plum.vercel.app/**
 
 O acesso às áreas internas exige autenticação e permissões válidas.
-👨‍💻 Desenvolvedor
-Rodrigo Elias Alfama de Mello
+
+## 👨‍💻 Desenvolvedor
+
+**Rodrigo Elias Alfama de Mello**
 
 Desenvolvedor Web | Front-End | Soluções Digitais
 
 Formado em Análise e Desenvolvimento de Sistemas, com foco no desenvolvimento de aplicações web, interfaces modernas e soluções digitais.
+
 <p align="center">
-  <a href="https://v0-rodrigoelias-portfolio.vercel.app/">Portfólio</a> •
+  <a href="https://portifolio-rodrigo-elias.vercel.app/">Portfólio</a> •
   <a href="https://www.linkedin.com/in/rodrigoelias1709">LinkedIn</a> •
-  <a href="https://github.com/Elias-1709">GitHub</a>
-</p><p align="center">
-  🗳️ <strong>Electoral Command Center — Clareza operacional para decisões mais conscientes.</strong>
+  <a href="https://github.com/RodrigoElias-Mello">GitHub</a>
+</p>
+
+---
+
+<p align="center">
+  <strong>Desenvolvido por Elias Technology.</strong>
   <br />
-  Desenvolvido por <strong>Elias Technology</strong>.
+  🗳️ Electoral Command Center — Clareza operacional para decisões mais conscientes.
 </p>
